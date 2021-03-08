@@ -33,3 +33,9 @@ console.log("4 -", isIsogram("moOse"));
 console.log("5 -", isIsogram("isIsogram"));
 // Should be true, "an empty string is a valid isogram"
 console.log("6 -", isIsogram(""));
+
+/// One solution
+
+// function isIsogram(str){
+//     return !str.match(/([a-z]).*\1/i);
+// }
