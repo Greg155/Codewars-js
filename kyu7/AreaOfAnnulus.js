@@ -16,6 +16,8 @@ console.log(annulusArea(7));
 console.log(annulusArea(13));
 
 // Others solutions
-function annulusArea(a) {
-  return Math.round(Math.PI * a * a * 25) / 100;
-}
+// function annulusArea(a) {
+//   return Math.round(Math.PI * a * a * 25) / 100;
+// }
+
+//annulusArea=(a)=>+(Math.PI*a*a/4).toFixed(2)
